@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CE931801B6ED12C00EA0630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9317F1B6ED12C00EA0630 /* AppDelegate.swift */; };
+		8CE931821B6ED12C00EA0630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE931811B6ED12C00EA0630 /* ViewController.swift */; };
+		8CE931851B6ED12C00EA0630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE931831B6ED12C00EA0630 /* Main.storyboard */; };
+		8CE931871B6ED12C00EA0630 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE931861B6ED12C00EA0630 /* Images.xcassets */; };
+		8CE9318A1B6ED12C00EA0630 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CE931881B6ED12C00EA0630 /* LaunchScreen.xib */; };
+		8CE931961B6ED12C00EA0630 /* AugmentedVirtualRealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE931951B6ED12C00EA0630 /* AugmentedVirtualRealityTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CE931901B6ED12C00EA0630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CE931721B6ED12C00EA0630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE931791B6ED12C00EA0630;
+			remoteInfo = AugmentedVirtualReality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CE9317A1B6ED12C00EA0630 /* AugmentedVirtualReality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedVirtualReality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE9317E1B6ED12C00EA0630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE9317F1B6ED12C00EA0630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CE931811B6ED12C00EA0630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CE931841B6ED12C00EA0630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE931861B6ED12C00EA0630 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CE931891B6ED12C00EA0630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CE9318F1B6ED12C00EA0630 /* AugmentedVirtualRealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AugmentedVirtualRealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE931941B6ED12C00EA0630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE931951B6ED12C00EA0630 /* AugmentedVirtualRealityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentedVirtualRealityTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE931771B6ED12C00EA0630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE9318C1B6ED12C00EA0630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE931711B6ED12C00EA0630 = {
+			isa = PBXGroup;
+			children = (
+				8CE9317C1B6ED12C00EA0630 /* AugmentedVirtualReality */,
+				8CE931921B6ED12C00EA0630 /* AugmentedVirtualRealityTests */,
+				8CE9317B1B6ED12C00EA0630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE9317B1B6ED12C00EA0630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE9317A1B6ED12C00EA0630 /* AugmentedVirtualReality.app */,
+				8CE9318F1B6ED12C00EA0630 /* AugmentedVirtualRealityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE9317C1B6ED12C00EA0630 /* AugmentedVirtualReality */ = {
+			isa = PBXGroup;
+			children = (
+				8CE9317F1B6ED12C00EA0630 /* AppDelegate.swift */,
+				8CE931811B6ED12C00EA0630 /* ViewController.swift */,
+				8CE931831B6ED12C00EA0630 /* Main.storyboard */,
+				8CE931861B6ED12C00EA0630 /* Images.xcassets */,
+				8CE931881B6ED12C00EA0630 /* LaunchScreen.xib */,
+				8CE9317D1B6ED12C00EA0630 /* Supporting Files */,
+			);
+			path = AugmentedVirtualReality;
+			sourceTree = "<group>";
+		};
+		8CE9317D1B6ED12C00EA0630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE9317E1B6ED12C00EA0630 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CE931921B6ED12C00EA0630 /* AugmentedVirtualRealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CE931951B6ED12C00EA0630 /* AugmentedVirtualRealityTests.swift */,
+				8CE931931B6ED12C00EA0630 /* Supporting Files */,
+			);
+			path = AugmentedVirtualRealityTests;
+			sourceTree = "<group>";
+		};
+		8CE931931B6ED12C00EA0630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE931941B6ED12C00EA0630 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE931791B6ED12C00EA0630 /* AugmentedVirtualReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE931991B6ED12C00EA0630 /* Build configuration list for PBXNativeTarget "AugmentedVirtualReality" */;
+			buildPhases = (
+				8CE931761B6ED12C00EA0630 /* Sources */,
+				8CE931771B6ED12C00EA0630 /* Frameworks */,
+				8CE931781B6ED12C00EA0630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AugmentedVirtualReality;
+			productName = AugmentedVirtualReality;
+			productReference = 8CE9317A1B6ED12C00EA0630 /* AugmentedVirtualReality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CE9318E1B6ED12C00EA0630 /* AugmentedVirtualRealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE9319C1B6ED12C00EA0630 /* Build configuration list for PBXNativeTarget "AugmentedVirtualRealityTests" */;
+			buildPhases = (
+				8CE9318B1B6ED12C00EA0630 /* Sources */,
+				8CE9318C1B6ED12C00EA0630 /* Frameworks */,
+				8CE9318D1B6ED12C00EA0630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CE931911B6ED12C00EA0630 /* PBXTargetDependency */,
+			);
+			name = AugmentedVirtualRealityTests;
+			productName = AugmentedVirtualRealityTests;
+			productReference = 8CE9318F1B6ED12C00EA0630 /* AugmentedVirtualRealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE931721B6ED12C00EA0630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Alex Prevoteau";
+				TargetAttributes = {
+					8CE931791B6ED12C00EA0630 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8CE9318E1B6ED12C00EA0630 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8CE931791B6ED12C00EA0630;
+					};
+				};
+			};
+			buildConfigurationList = 8CE931751B6ED12C00EA0630 /* Build configuration list for PBXProject "AugmentedVirtualReality" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE931711B6ED12C00EA0630;
+			productRefGroup = 8CE9317B1B6ED12C00EA0630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE931791B6ED12C00EA0630 /* AugmentedVirtualReality */,
+				8CE9318E1B6ED12C00EA0630 /* AugmentedVirtualRealityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE931781B6ED12C00EA0630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE931851B6ED12C00EA0630 /* Main.storyboard in Resources */,
+				8CE9318A1B6ED12C00EA0630 /* LaunchScreen.xib in Resources */,
+				8CE931871B6ED12C00EA0630 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE9318D1B6ED12C00EA0630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE931761B6ED12C00EA0630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE931821B6ED12C00EA0630 /* ViewController.swift in Sources */,
+				8CE931801B6ED12C00EA0630 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE9318B1B6ED12C00EA0630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE931961B6ED12C00EA0630 /* AugmentedVirtualRealityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CE931911B6ED12C00EA0630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE931791B6ED12C00EA0630 /* AugmentedVirtualReality */;
+			targetProxy = 8CE931901B6ED12C00EA0630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CE931831B6ED12C00EA0630 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE931841B6ED12C00EA0630 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CE931881B6ED12C00EA0630 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE931891B6ED12C00EA0630 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE931971B6ED12C00EA0630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CE931981B6ED12C00EA0630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE9319A1B6ED12C00EA0630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AugmentedVirtualReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CE9319B1B6ED12C00EA0630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AugmentedVirtualReality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CE9319D1B6ED12C00EA0630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AugmentedVirtualRealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentedVirtualReality.app/AugmentedVirtualReality";
+			};
+			name = Debug;
+		};
+		8CE9319E1B6ED12C00EA0630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AugmentedVirtualRealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentedVirtualReality.app/AugmentedVirtualReality";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE931751B6ED12C00EA0630 /* Build configuration list for PBXProject "AugmentedVirtualReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE931971B6ED12C00EA0630 /* Debug */,
+				8CE931981B6ED12C00EA0630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE931991B6ED12C00EA0630 /* Build configuration list for PBXNativeTarget "AugmentedVirtualReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE9319A1B6ED12C00EA0630 /* Debug */,
+				8CE9319B1B6ED12C00EA0630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CE9319C1B6ED12C00EA0630 /* Build configuration list for PBXNativeTarget "AugmentedVirtualRealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE9319D1B6ED12C00EA0630 /* Debug */,
+				8CE9319E1B6ED12C00EA0630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE931721B6ED12C00EA0630 /* Project object */;
+}
